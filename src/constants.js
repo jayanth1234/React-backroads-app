@@ -4,3 +4,4 @@ export const bannerDesc =
 export const aboutUsMainText = "explore the difference";
 export const aboutUsDescText =
   "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quisquam harum nam cumque temporibus explicabo dolorum sapiente odio unde dolor?";
+export const readMoreButtonText = "read more";
