@@ -1,7 +1,11 @@
 import React from "react";
 import aboutUsImage from "../images/about.jpeg";
 import Title from "./Title";
-import { aboutUsDescText, aboutUsMainText } from "../constants";
+import {
+  aboutUsDescText,
+  aboutUsMainText,
+  readMoreButtonText,
+} from "../constants";
 
 const AboutUs = () => {
   return (
@@ -17,7 +21,7 @@ const AboutUs = () => {
           <p>{aboutUsDescText}</p>
           <p>{aboutUsDescText}</p>
           <a href="/#" className="btn">
-            read more
+            {readMoreButtonText}
           </a>
         </article>
       </div>
